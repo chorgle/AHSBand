@@ -7,7 +7,7 @@
   </head>
   <body style="background-image: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg)";>
         <style>
-        .homeimage {
+        #homeimage {
 	     opacity: 1;
 	     animation-name: fadeInOpacity;
 	     animation-iteration-count: 1;
@@ -25,13 +25,28 @@
 		    opacity: 1;
 	      }
         }
-        .bandlink {
+        #bandlink {
           text-align: center;
         }
+
+	.links:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        }
+
+	.links:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+}
+	}
         </style>
     <h2 style="color: white; text-align: center;">Welcome to the Altoona High School Band Website!</h2>
+    <div class="links">
+	<a id="bandlink" href="https://chorgle.github.io/AHSBand/schedule.html">Band Schedule</a>
+    </div>
     <img id="homeimage" style="display: block; height: 33%; width: 33%; margin-left: auto; margin-right: auto;" src="https://chorgle.github.io/AHSBand/images/IMG_1222.jpg">
     <br>
-    <a id="bandlink" href="https://chorgle.github.io/AHSBand/schedule.html">Band Schedule</a>
   </body>
 </html>
