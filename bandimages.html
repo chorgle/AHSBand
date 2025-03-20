@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <style>
+              #dog {
+  position: relative;
+  animation-name: dogs;
+  animation-duration: 4s;
+  animation-direction: reverse;
+        }
+
+        @keyframes dogs {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+        }
+    </style>
     <h2>Welcome to the Band Gallery!</h2>
     <p>all the images were destroyed in a giant fireball :(</p>
     <p>here's an awesome dog to make it up</p>
